@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header nav ul{
+    position: relative;
+    float: right;
+    padding-top: 1em;
+    padding-right: 1.5em;
+}
+header nav ul li{
+    display: inline-block;
+    margin-right:3.5em ;
+} 
+header nav img{
+width: 5em;
+}
+header nav{
+    background-color: rgba(36, 34, 2, 0.712);
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
+    padding-left: 5em;
+    }
+header nav ul li a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+#my01 img{
+    position: relative;
+    float:right ;
+    width: 37em;
+    margin-bottom:2em;
+   
+}
+#my01{
+    margin-top:1.2em ;
+    margin-right: 2em;
+    margin-bottom: 5em;
+}
+#my02 h1{
+    text-align: center;
+    margin-top: 5.5em;
+    position: absolute;
+    margin-left: 2em;
+    font-size: 1.5em;
+    }
+    #my03{
+        position: relative;
+        clear: both;
+        padding-left:2em ;
+    }
+    #my03 img{
+        width: 37em;
+        height: 23em;
+
+    }
+    #my04{
+        float: right;
+    }
+    #my04 h1{
+        text-align: center;
+        font-size: 1.5em;
+        margin-top: 5.5em ;
+        margin-right:4.5em ;
+    }
+
+    #my05 img{
+        position: relative;
+        float:right ;
+        width: 37em;
+        margin-bottom:2em;
+        height: 23em;
+       
+    }
+    #my05{
+        margin-top:1.2em ;
+        margin-right: 2em;
+        margin-bottom: 5em;
+    }
+    #my06 h1{
+        text-align: center;
+        margin-top: 5.5em;
+        position: absolute;
+        margin-left: 2em;
+        font-size: 1.5em;
+    }
+
+
+    .entire-container{
+        clear: both;
+        padding-top: 2em;
+    }
+    .grid-items h1{
+        font-size: 1.5rem;
+        border-bottom: 5px solid rgb(15, 15, 87);
+        text-align: center;
+    }
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }.grid-items{
+        margin: auto;
+    }
+    .entire-container h1{
+        text-align: center;
+    }
+    .footer-grid-items ul li{
+        list-style: none;
+    }
+    .footer-grid-con{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+    .footer-grid-items{
+        margin: auto;
+    }
+    .footer-grid-items img{
+        width: 6em;
+    }
+    .footer-grid-items ul li a{
+        font-size: 1.2rem;
+        text-decoration:none ;
+    }
+    footer{
+        padding-top: 2em;
+        padding-bottom: 1em;
+        background-color: rgba(21, 191, 197, 0.863);
+    }

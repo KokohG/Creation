@@ -1,0 +1,125 @@
+body{
+    border: 1.5em double black;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(63, 149, 160, 0.349);
+}
+header nav ul{
+    position: relative;
+    float: right;
+    padding-top: 1em;
+    padding-right: 1.5em;
+}
+header nav ul li{
+    display: inline-block;
+    margin-right:3.5em ;
+} 
+header nav img{
+width: 5em;
+}
+header nav{
+    background-color:none;
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
+    padding-left: 5em;
+    }
+header nav ul li a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+#about h1{
+    text-align: center;
+    font-size: 6em;
+    font-family: verdana;
+    background-image: url(./img/bckg.jpeg);
+    color: powderblue;
+}
+#about pre{
+    font-size: 1.5em;
+    font-family: arial;
+}
+#mission h1{
+    text-align: left;
+    font-size: 4em;
+    font-family: blinkmacsystemfont;
+    font-style: italic;
+    
+}
+#mission{
+    border:5px solid rgba(37, 35, 35, 0.554);
+    background-color: rgba(160, 194, 221, 0.322);
+    padding-left: 1.5em;
+}
+#mission p{
+    text-align: left;
+    font-size: 1em;
+    font-family: arial;
+}
+#vision h1{
+    text-align: left;
+    font-size: 4em;
+    font-family: BlinkMacSystemFont;
+    font-style: italic;
+}
+#vision{
+    border:5px solid rgba(37, 35, 35, 0.554);
+    background-color: rgba(160, 194, 221, 0.322);
+    padding-left: 1.5em;
+}
+#vision p{
+    text-align: left;
+    font-size: 1em;
+    font-family: arial;
+}
+
+
+
+#img img{
+    width: 81.4em;
+    height: 30em;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .footer-grid-items ul li{
+        list-style: none;
+    }
+    .footer-grid-con{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+    .footer-grid-items{
+        margin: auto;
+    }
+    .footer-grid-items img{
+        width: 6em;
+    }
+    .footer-grid-items ul li a{
+        font-size: 1.2rem;
+        text-decoration:none ;
+    }
+    footer{
+        padding-top: 2em;
+        padding-bottom: 1em;
+        background-color: none;
+    }
